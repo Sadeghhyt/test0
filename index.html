@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کتابخانه ستاری</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-image: url(2.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>کتابخانه ستاری</h1>
+    </div>
+
+    <div class="search-panel">
+        <h2>جست‌وجوی کتاب</h2>
+        <form action="search.php" method="GET">
+            <input type="text" name="title" placeholder="نام کتاب">
+            <input type="text" name="author" placeholder="نام نویسنده">
+            <input type="text" name="genre" placeholder="ژانر">
+            <input type="text" name="age_group" placeholder="رده سنی">
+            <button type="submit">جست‌وجو</button>
+            <button type="reset">پاک کردن</button>
+        </form>
+    </div>
+
+    <div class="search-panel sade">
+        <a href="register.html">ثبت کتاب جدید</a>
+    </div>
+
+    <div class="footer">
+        <p>کتابخانه ستاری - تمامی حقوق محفوظ است</p>
+    </div>
+</body>
+</html>
